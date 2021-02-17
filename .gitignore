@@ -1,0 +1,4 @@
+.vscode/**
+mpv.log
+watch_later/**
+shaders/cache/**
