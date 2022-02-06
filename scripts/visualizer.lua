@@ -15,14 +15,14 @@ local opts = {
     -- showcqtbar
     -- showwaves
 
-    quality = "low+",
+    quality = "low",
     -- verylow
     -- low
     -- medium
     -- high
     -- veryhigh
 
-    height = 10,
+    height = 8,
     -- [4 .. 12]
 
     force_reload = true,
@@ -238,7 +238,7 @@ local function get_visualizer(aid, name, quality)
         w = 960
         fps = 30
     elseif quality == "low+" then
-        w = 1152
+        w = 960
         fps = mp.get_property_number("display-fps", 30)
     elseif quality == "low60" then
         w = 960
